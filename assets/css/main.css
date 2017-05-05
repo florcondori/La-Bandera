@@ -1,1 +1,27 @@
-main
+/*Parte I*/
+*{
+	box-sizing: border-box;
+}
+section{
+	padding: 2rem;
+}
+.contenedor{
+	border: 2px solid grey;
+	overflow: auto;
+}
+.contenedor div{
+	float: left;
+}
+.box{
+	width: 200px;
+	height: 200px;
+}
+.yellow{
+	background-color: yellow;
+}
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red;
+}
