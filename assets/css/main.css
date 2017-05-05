@@ -1,8 +1,10 @@
+<<<<<<< HEAD
 *{
 	box-sizing: border-box;
 }
 section{
 	padding: 2rem;
+	overflow: auto;
 }
 h1{
 	text-align: center;
@@ -17,10 +19,6 @@ h1{
 	width: 150px;
 	height: 100px;
 }
-#parte-uno div{
-	float: left;
-}
-
 .yellow{
 	background: yellow;
 }
@@ -29,3 +27,12 @@ h1{
 }
 .red{
 	background: red;
+}
+/*Parte I*/
+#parte-uno div{
+	float: left;
+}
+/*Parte II*/
+#parte-dos div{
+	float: right;
+}
